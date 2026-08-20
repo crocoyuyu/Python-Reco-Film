@@ -40,7 +40,7 @@ LABEL_SEMAINE = {
 
 db.init_db()  # ne fait rien si les tables existent déjà (CREATE TABLE IF NOT EXISTS)
 
-st.set_page_config(page_title="Mon programme cinéma", page_icon="🎬", layout="centered")
+st.set_page_config(page_title="Filmolik", page_icon="🎬", layout="centered")
 
 
 def mois_affiche(month: str) -> str:
@@ -69,7 +69,7 @@ def selection_state() -> list[int]:
 # ---------------------------------------------------------------------------
 
 def ecran_accueil() -> None:
-    st.title("Mon programme cinéma")
+    st.title("Filmolik")
     st.write("Découvrez chaque mois quatre films sélectionnés selon vos goûts.")
     col1, col2 = st.columns(2)
     if col1.button("Inscription", use_container_width=True):
