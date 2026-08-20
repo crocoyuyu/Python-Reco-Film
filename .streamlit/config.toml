@@ -1,0 +1,6 @@
+# toolbarMode = "minimal" retire le menu développeur (Rerun, Clear cache,
+# Deploy...) et les raccourcis clavier associés ("r", "c") qui n'ont pas
+# d'utilité pour un utilisateur final de l'app et peuvent gêner un
+# copier-coller de texte affiché sur la page.
+[client]
+toolbarMode = "minimal"

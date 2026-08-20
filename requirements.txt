@@ -1,0 +1,29 @@
+# streamlit : construit toute l'interface web (pages, formulaires, boutons,
+# gestion de session) sans avoir à écrire de HTML/JS
+streamlit
+
+# pandas : charge et manipule le catalogue de films (le gros tableau
+# movieId/titre/genres/réalisateur/...) et le fichier de notes
+pandas
+
+# scikit-learn : fournit les deux briques du moteur de recommandation —
+# TfidfVectorizer (texte -> vecteurs de nombres) et cosine_similarity
+# (comparer deux vecteurs). Utilisé par le notebook 5 pour construire le
+# modèle, et repris ici pour calculer les scores en direct.
+scikit-learn
+
+# scipy : scikit-learn s'en sert en interne pour représenter les matrices
+# TF-IDF sous forme "creuse" (sparse), c'est-à-dire sans stocker tous les
+# zéros — indispensable vu la taille de la matrice (9742 films x plusieurs
+# dizaines de milliers de colonnes)
+scipy
+
+# pytest : fait tourner les tests automatisés du dossier tests/
+pytest
+
+# requests : pour appeler l'API TMDB (récupération des affiches de films)
+requests
+
+# python-dotenv : charge la clé API TMDB depuis le fichier .env local
+# (jamais commité dans git) plutôt que de l'écrire en dur dans le code
+python-dotenv

@@ -4,3 +4,8 @@ __pycache__/
 .DS_Store
 models/*.pkl
 *.pkl
+!models/modele_content_enrichi.pkl
+data/app.db
+*.db
+.env
+models/posters_cache.json
