@@ -18,9 +18,15 @@ Ce guide explique comment utiliser l'application, écran par écran. Pour la str
 
 ### 1.1 Sans rien installer (navigateur uniquement)
 
-Si quelqu'un a mis l'application en ligne (voir l'encadré ci-dessous), il suffit d'ouvrir le lien fourni dans n'importe quel navigateur — aucune installation, ni de Python ni de Streamlit, n'est nécessaire. C'est la façon la plus simple d'y accéder pour quelqu'un qui veut juste l'essayer (un correcteur, un camarade...).
+L'application est en ligne à cette adresse :
 
-> **Pas encore de lien disponible ?** L'application n'est pas hébergée par défaut — elle doit d'abord être déployée une fois par la personne qui gère le projet. La façon la plus simple et gratuite est **Streamlit Community Cloud** :
+**👉 [filmolik.streamlit.app](https://filmolik.streamlit.app/)**
+
+Il suffit d'ouvrir ce lien dans n'importe quel navigateur — aucune installation, ni de Python ni de Streamlit, n'est nécessaire. C'est la façon la plus simple d'y accéder pour quelqu'un qui veut juste l'essayer (un correcteur, un camarade...).
+
+*(L'app gratuite peut se mettre en veille après une période d'inactivité — le premier chargement prend alors une quinzaine de secondes le temps qu'elle redémarre.)*
+
+> **Comment ce lien a été obtenu, ou comment en recréer un** : la façon la plus simple et gratuite est **Streamlit Community Cloud** :
 > 1. Le code doit être sur GitHub (déjà fait — voir les dépôts du projet)
 > 2. Créer un compte sur [share.streamlit.io](https://share.streamlit.io) (connexion via GitHub)
 > 3. Cliquer sur "New app", choisir le dépôt et indiquer `RecommandationFilm/app/main.py` comme fichier principal
